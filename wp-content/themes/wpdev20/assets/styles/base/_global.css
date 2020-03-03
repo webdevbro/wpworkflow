@@ -1,0 +1,15 @@
+.mainContent {
+  border: 2px solid $mainPurple;
+  border-radius: 4px;
+  padding: 2rem;
+
+  h1,
+  h2,
+  h3 {
+    color: $mainPurple;
+  }
+  p {
+    columns: 3;
+    background-color: rgba($mainPurple, 0.3);
+  }
+}
